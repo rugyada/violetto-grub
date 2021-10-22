@@ -7,7 +7,7 @@ Name:		violetto-grub
 Version:	2.0.1
 Release:	1
 License:	GPL
-Group:		Graphical desktop/KDE
+Group:		Graphics
 Url:		https://github.com/rugyada/violetto-grub
 Source0:	%{oname}-%version.tar.gz
 Requires:	grub2
