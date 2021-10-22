@@ -1,5 +1,4 @@
-%define _enable_debug_packages %{nil}
-%define debug_package %{nil}
+# Violetto grub theme
 
 Summary:	Violetto theme for the GRUB bootloader
 Name:		violetto-grub
