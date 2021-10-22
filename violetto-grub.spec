@@ -1,6 +1,8 @@
+%define oname violetto
+%define bdate   2021.10.22
 
 Summary:	Violetto theme for the GRUB bootloader
-Name:		violetto-grub
+Name:		violetto
 Version:	2.0
 Release:	1
 License:	GPL
