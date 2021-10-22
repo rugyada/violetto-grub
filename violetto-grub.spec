@@ -20,7 +20,7 @@ Violetto theme for the GRUB bootloader
 /boot/grub2/themes/Violetto
 
 %prep
-%setup -qn %{oname}
+%setup -qn %{oname}-%{version}
 
 %build
 
