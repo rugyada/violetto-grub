@@ -3,8 +3,8 @@
 
 Summary:	Violetto theme for the GRUB bootloader
 Name:		violetto-grub
-Version:	2.0
-Release:	3
+Version:	2.0.1
+Release:	1
 License:	GPL
 Group:		Graphical desktop/KDE
 Url:		https://github.com/rugyada/violetto-grub
