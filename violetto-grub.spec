@@ -8,7 +8,7 @@ Release:	1
 License:	GPL
 Group:		Graphical desktop/KDE
 Url:		https://github.com/rugyada/violetto-grub
-Source0:	violetto.tar.gz
+Source0:	%{name}-%version.tar.gz
 Requires:	grub2
 %endif
 BuildArch:	noarch
