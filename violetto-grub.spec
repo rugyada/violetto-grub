@@ -1,4 +1,6 @@
 # Violetto grub theme
+%define oname Violetto
+%define bdate   2021.10.22
 
 Summary:	Violetto theme for the GRUB bootloader
 Name:		violetto-grub
@@ -7,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		Graphical desktop/KDE
 Url:		https://github.com/rugyada/violetto-grub
-Source0:	%{name}-%version.tar.gz
+Source0:	%{oname}-%version.tar.gz
 Requires:	grub2
 BuildArch:	noarch
 
@@ -15,14 +17,14 @@ BuildArch:	noarch
 Violetto theme for the GRUB bootloader
 
 %files
-/boot/grub2/themes/violetto-grub
+/boot/grub2/themes/Violetto
 
 %prep
-%autosetup
+%setup -qn %{oname}
 
 %build
-# nothing
+
 
 %install
-mkdir -p %{buildroot}/boot/grub2/themes
-cp -a violetto-grub %{buildroot}/boot/grub2/themes/
+mkdir -p %{buildroot}/boot/grub2/themes/Violetto
+cp * %{buildroot}/boot/grub2/themes/Violetto/
