@@ -27,5 +27,4 @@ Violetto theme for the GRUB bootloader
 
 %install
 mkdir -p %{buildroot}/boot/grub2/themes/Violetto
-cp * %{buildroot}/boot/grub2/themes/Violetto/
-cp -rf
+cp -rf * %{buildroot}/boot/grub2/themes/Violetto/
