@@ -22,5 +22,5 @@ the GRUB bootloader
 %build
 
 %install
-mkdir -p %{buildroot}/boot/grub2/themes/violetto-grub
+mkdir -p %{buildroot}/boot/grub2/themes
 cp -a violetto-grub %{buildroot}/boot/grub2/themes/
